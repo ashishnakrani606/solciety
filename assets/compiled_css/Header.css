@@ -1,0 +1,198 @@
+.header nav.navbar {
+  background: transparent !important;
+  padding: 30px 0px;
+}
+
+.header nav.navbar div#basic-navbar-nav a.nav-link {
+  color: #fff;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  padding: 0px 18px;
+}
+
+.header nav.navbar div#basic-navbar-nav a.nav-link.active,
+.header nav.navbar div#basic-navbar-nav a.nav-link:hover {
+  color: #1CE130;
+}
+
+.header nav.navbar a.navbar-brand {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero-banner {
+  padding-top: 50px;
+}
+
+.header nav.navbar a.navbar-brand img {
+  padding-top: 0px;
+  padding-top: 9px;
+  padding-right: 5px;
+}
+
+.header nav.navbar a.navbar-brand span {
+  color: #fff;
+  font-family: Pacifico;
+  font-size: 32px;
+}
+
+.btn_sol {
+  border: 0;
+  background: linear-gradient(269.89deg, #c319c6 11.69%, #c9184a 78.96%);
+  border-radius: 8px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 9px 24px;
+}
+
+.btn_sol img {
+  padding-left: 5px;
+}
+
+.btn_sol.mobile {
+  display: none;
+}
+
+.header button.navbar-toggler img {
+  height: 25px;
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-collapse {
+    -webkit-box-pack: start !important;
+        -ms-flex-pack: start !important;
+            justify-content: flex-start !important;
+    margin-left: 130px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .header nav.navbar div#basic-navbar-nav a.nav-link {
+    font-size: 16px;
+  }
+  .btn_sol {
+    font-size: 17px;
+  }
+  .header nav.navbar {
+    padding: 20px 0px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .navbar-collapse {
+    position: absolute;
+    top: 70px;
+    background: #fff;
+    left: 0;
+    width: 100%;
+    color: #000;
+    z-index: 99;
+    padding: 15px 0px;
+  }
+  .navbar-collapse .navbar-nav {
+    padding: 15px 0;
+  }
+  .btn_sol {
+    display: none;
+  }
+  .header nav.navbar div#basic-navbar-nav button.btn_sol.mobile.btn {
+    display: block;
+    margin: auto;
+  }
+  .header nav.navbar div#basic-navbar-nav a.nav-link {
+    padding: 7px 18px;
+    color: #000;
+  }
+  .header nav.navbar {
+    padding: 15px 0px;
+  }
+  .btn_sol.mobile {
+    display: block;
+  }
+  .mobile-btn-set {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .mobile-btn-set button.btn_sol.mobile.btn.btn-primary {
+    margin-right: 15px;
+    font-size: 18px;
+    padding: 6px 14px;
+  }
+  .navbar-toggler {
+    padding-right: 0px;
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar-collapse {
+    position: absolute;
+    top: 70px;
+    background: #fff;
+    left: 0;
+    width: 100%;
+    color: #000;
+    z-index: 99;
+    padding: 15px 0px;
+  }
+  .navbar-collapse .navbar-nav {
+    padding: 15px 0;
+  }
+  .navbar-toggler {
+    padding-right: 0px;
+  }
+  .header nav.navbar {
+    padding: 10px 0px;
+  }
+  .btn_sol {
+    display: none;
+  }
+  .btn_sol.mobile {
+    display: block;
+  }
+  .mobile-btn-set {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .mobile-btn-set button.btn_sol.mobile.btn.btn-primary {
+    margin-right: 8px;
+    font-size: 14px;
+    padding: 7px 8px;
+  }
+  .mobile-btn-set button.btn_sol.mobile.btn.btn-primary img {
+    width: 22px;
+  }
+  .header nav.navbar div#basic-navbar-nav button.btn_sol.mobile.btn {
+    display: block;
+    margin: auto;
+  }
+  .header nav.navbar div#basic-navbar-nav a.nav-link {
+    padding: 7px 18px;
+  }
+  .header nav.navbar div#basic-navbar-nav a.nav-link {
+    font-size: 16px;
+    color: #000;
+  }
+  .header nav.navbar div#basic-navbar-nav button.btn_sol.mobile {
+    font-size: 16px;
+  }
+  .header nav.navbar a.navbar-brand span {
+    font-size: 23px;
+  }
+}
+/*# sourceMappingURL=Header.css.map */

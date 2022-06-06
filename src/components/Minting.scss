@@ -1,0 +1,43 @@
+
+  .minting-top h4{
+    font-family: Permanent Marker;
+    font-size: 32px;
+    color: #fff;
+    margin-bottom: 10px;
+    margin-top: 40px;
+  }
+  .inner-charity-auction-center{
+    padding: 0px 15px;
+  }
+  @media screen and (max-width:767px){
+    .minting-top h4{
+      font-size: 20px;
+      margin-bottom: 15px;
+      margin-top: 20px;
+    }
+    .minting-top img{
+      width: 100%;
+    }
+    .inner-charity-auction-center{
+      padding: 0px;
+    }
+  }
+  @media screen and (min-width:768px) and (max-width:1023px){
+    .minting-top h4{
+      font-size: 22px;
+      margin-bottom: 15px;
+      margin-top: 30px;
+    }
+  }
+  @media screen and (min-width:1024px) and (max-width:1099px){
+    .minting-top h4 {
+      font-size: 28px;
+      margin-bottom: 18px;
+    }
+  }
+  @media screen and (min-width:1200px) and (max-width:1299px){
+    .minting-top h4{
+      font-size: 30px;
+      margin-bottom: 19px;
+    }
+  }

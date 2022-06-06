@@ -1,0 +1,181 @@
+.hero-banner .banner-text {
+    text-align: left;
+}
+.hero-banner .banner-text .social-icon ul {
+    padding-left: 0;
+    display: flex;
+    margin: 0;
+}
+.hero-banner .banner-text .social-icon ul li {
+    list-style: none;
+    margin: 13px 24px;
+}
+.hero-banner .banner-text .social-icon ul li a.nav-link {
+    padding: 0;
+}
+.hero-banner .banner-text h1 {
+    font-family: 'Pacifico';
+    margin: 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 96px;
+    transform: rotate(-5.38deg);
+    font-feature-settings: 'ordn' on, 'fina' on, 'calt' off;
+    padding-bottom: 45px;
+}
+.hero-banner .banner-text .slogan {
+    display: inline-flex;
+    align-items: center;
+    padding: 1px 9px;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 8px;
+    margin-left: -9px;
+}
+.hero-banner .banner-text .slogan span {
+    font-size: 22px;
+    padding-right: 13px;
+}
+.hero-banner .banner-text p.slogan-text {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    max-width: 370px;
+    margin: 0;
+    padding: 22px 0px 22px 0px;
+}
+.hero-banner .banner-text p.time-date {
+    font-family: Permanent Marker;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+}
+.hero-banner .banner-text .social-icon ul li a.nav-link img {
+    width: 35px;
+}
+.hero-banner .container {
+    max-width: 1145px;
+    margin: auto;
+}
+.hero-banner .container .row{
+    align-items: center;
+    padding-top: 90;
+}
+.hero-banner .container .mint-btn a.nav-link {
+    background: #D3EF60;
+    border-radius: 16px;
+    font-family: Permanent Marker;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 150%;
+    color: #000;
+    margin: 20px 0px;
+}
+.hero-banner .banner-img p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+}
+.hero-banner:before,
+#about-main:before{
+    content: "";
+    position: absolute;
+    top: -400px;
+    left: 0;
+    width: 100%;
+    height: 1420px;
+    background-image: url(../assets/images/circle-icon.png);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-position: center -60px;
+    z-index: -1;
+}
+@media (min-width:992px) and (max-width:1199px){
+    .hero-banner .banner-text h1 {
+        font-size: 80px;
+    }
+    .hero-banner .container .row {
+        padding-top: 40px;
+    }
+    .hero-banner:before,
+    #about-main:before{
+        background-size: cover;
+    }
+    .hero-banner {
+        padding-top: 10px;
+    }
+}
+@media (min-width:768px) and (max-width:991px){
+    .hero-banner .banner-img p{
+        font-size: 17px;
+    }
+    .hero-banner:before,
+    #about-main:before{
+        background-size: cover;
+    }
+    .hero-banner {
+        padding-top: 10px;
+    }
+    .hero-banner .banner-text h1 {
+        font-size: 65px;
+    }
+    .hero-banner .container .row {
+        padding-top: 10px;
+    }
+    .hero-banner .banner-text p.slogan-text {
+        font-size: 16px;
+    }
+    .hero-banner .banner-text p.time-date {
+        font-size: 18px;
+    }
+    .hero-banner .container .mint-btn a.nav-link {
+        font-size: 28px;
+    }
+}
+@media (max-width:767px){
+    .hero-banner .banner-img p{
+        font-size: 14px;
+    }
+    .hero-banner .banner-text{
+        text-align: center;
+    }
+    .hero-banner .banner-text .social-icon ul{
+        justify-content: center;
+    }
+    .hero-banner:before,
+    #about-main:before{
+        background-size: cover;
+    }
+    .hero-banner .banner-text{
+        padding-top: 15px;
+    }
+    .hero-banner {
+        padding-top: 0px;
+    }
+    .hero-banner .banner-text h1 {
+        font-size: 36px;
+        padding-bottom: 25px;
+    }
+    .hero-banner .container .row {
+        padding-top: 10px;
+    }
+    .hero-banner .banner-text p.slogan-text {
+        font-size: 14px;
+        padding: 11px 0px 12px 0px;
+        margin: 0 auto;
+    }
+    .hero-banner .banner-text p.time-date {
+        font-size: 18px;
+    }
+    .hero-banner .container .mint-btn a.nav-link {
+        font-size: 28px;
+    }
+    .banner-img {
+        order: 1;
+    }
+    .banner-text {
+        order: 2;
+    }
+}

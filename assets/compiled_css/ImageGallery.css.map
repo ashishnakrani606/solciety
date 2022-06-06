@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,gBAAgB,AAAA,eAAe,CAAA;EAC5B,OAAO,EAAE,eAAe;CACzB;;AACF,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,MAAM;EAClC,AAAA,gBAAgB,AAAA,eAAe,CAAA;IAC3B,OAAO,EAAE,gBAAgB;GAC5B;EACD,AAAA,gBAAgB,AAAA,gBAAgB,CAAA;IAC5B,OAAO,EAAE,eAAe;GAC3B",
+    "sources": [
+        "../../src/components/ImageGallery.scss"
+    ],
+    "names": [],
+    "file": "ImageGallery.css"
+}

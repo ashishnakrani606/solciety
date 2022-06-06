@@ -1,0 +1,134 @@
+@import "~bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
+$pacificoFont: 'Pacifico', cursive;
+$poppinsFont: 'Poppins', cursive;
+$permanentFont: 'Permanent Marker', cursive;
+$Inter: 'Inter', cursive;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: $poppinsFont;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 20px;
+  line-height: 1.4;
+  background-color: #000;
+  color: #fff;
+  overflow-x: hidden;
+}
+.container{
+  max-width: 1305px;
+}
+h2 {
+  font-family: $permanentFont;
+  font-size: 60px;
+  line-height: 1.1;
+}
+.padd-top{
+  padding-top: 130px;
+}
+.padd-top-bot{
+  padding-top: 100px;
+}
+.img-width{
+  width: 100%;
+}
+body .small-container{
+  max-width: 1090px;
+}
+.phase-0-main .phase-title a{
+  background: #272727;
+  border-radius: 8px;
+  padding: 12px 24px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 30px;
+  margin: 20px 0px 30px;
+  display: inline-block;
+}
+.charity-auction-main{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+@media screen and (max-width:767px){
+  body{
+    font-size: 14px;
+  }
+  .padd-top{
+    padding-top: 60px;
+  }
+  .padd-top-bot{
+    padding-top: 50px;
+  }
+  h2, .h2{
+    font-size: 36px;
+  }
+  .phase-0-main .phase-title a{
+    font-size: 18px;
+    padding: 9px 20px;
+    margin: 10px 0px 20px;
+  }
+  .phase-img {
+    margin-top: 30px;
+  }
+}
+@media screen and (min-width:768px) and (max-width:1023px){
+  .padd-top {
+    padding-top: 80px;
+  }
+  body{
+    font-size: 15px;
+  }
+  h2, .h2 {
+    font-size: 40px;
+  }
+  .padd-top-bot {
+    padding-top: 70px;
+  }
+}
+@media screen and (min-width:1024px) and (max-width:1199px){
+  .padd-top {
+    padding-top: 100px;
+  }
+  body{
+    font-size: 17px;
+  }
+  h2, .h2{
+    font-size: 48px;
+  }
+  .phase-0-main .phase-title a{
+    font-size: 24px;
+    padding: 10px 20px;
+    margin: 15px 0px 25px;
+  }
+  .padd-top-bot {
+    padding-top: 80px;
+  }
+}
+@media screen and (min-width:1200px) and (max-width:1299px){
+  .padd-top {
+    padding-top: 110px;
+  }
+  body{
+    font-size: 18px;
+  }
+  h2, .h2{
+    font-size: 50px;
+  }
+  .padd-top-bot {
+    padding-top: 90px;
+  }
+  .phase-0-main .phase-title a{
+    font-size: 26px;
+  }
+}

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACA,AAAA,aAAa,AAAA,aAAa,CAAC,YAAY,CAAC,CAAC,CAAA;EACvC,SAAS,EAAE,KAAK;EAChB,MAAM,EAAE,MAAM;CACf;;AACD,AAAA,aAAa,AAAA,aAAa,CAAC,YAAY,CAAC,CAAC,CAAA;EACvC,aAAa,EAAE,IAAI;CACpB",
+    "sources": [
+        "../../src/components/PhaseOne.scss"
+    ],
+    "names": [],
+    "file": "PhaseOne.css"
+}

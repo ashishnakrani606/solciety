@@ -1,0 +1,58 @@
+
+// Worlds First
+.world-first-main h2{
+    font-size: 72px;
+    background: linear-gradient(89deg, #C9184A 11.69%, #C319C6 90.96%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+  }
+  .world-first-main h4{
+    font-family: Permanent Marker;
+    font-size: 32px;
+    color: rgba(255, 255, 255, 0.75);
+    margin-bottom: 22px;
+  }
+  .inner-charity-auction-center{
+    padding: 0px 15px;
+  }
+  // Worlds end
+  @media screen and (max-width:767px){
+    .world-first-main h2 {
+      font-size: 40px;
+    }
+    .world-first-main h4{
+      font-size: 20px;
+      margin-bottom: 15px;
+    }
+    .inner-charity-auction-center{
+      padding: 0px;
+    }
+  }
+  @media screen and (min-width:768px) and (max-width:1023px){
+    .world-first-main h2 {
+      font-size: 48px;
+    }
+    .world-first-main h4{
+      font-size: 22px;
+      margin-bottom: 15px;
+    }
+  }
+  @media screen and (min-width:1024px) and (max-width:1099px){
+    .world-first-main h2 {
+      font-size: 58px;
+    }
+    .world-first-main h4 {
+      font-size: 28px;
+      margin-bottom: 18px;
+    }
+  }
+  @media screen and (min-width:1200px) and (max-width:1299px){
+    .world-first-main h2 {
+      font-size: 66px;
+    }
+    .world-first-main h4{
+      font-size: 30px;
+      margin-bottom: 19px;
+    }
+  }

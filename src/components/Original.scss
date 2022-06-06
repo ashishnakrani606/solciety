@@ -1,0 +1,59 @@
+.original-main .container .row {
+    align-items: center;
+}
+.original-main .container .row .original-text {
+    text-align: left;
+}
+.original-main .container .row .original-text h2 {
+    margin-bottom: 15px;
+}
+.original-main .rarity a.nav-link {
+    background: #131313;
+    border-radius: 16px;
+    font-family: Permanent Marker;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    color: #D3EF60;
+    display: inline-block;
+    padding: 17px 43px;
+}
+.original-main .rarity h2{
+    padding-bottom: 15px;
+}
+.original-main .rarity{
+    padding: 120px 0px 150px 0px;
+}
+.original-main .container .row .original-text p {
+    max-width: 441px;
+}
+
+@media (max-width:767px){
+    .original-main .rarity h2 {
+        padding-bottom: 0;
+    }
+    .original-main .container .row .original-text {
+        padding-bottom: 10px;
+    }
+    .original-main .rarity {
+        padding: 50px 0px 40px 0px;
+    }
+    .original-main .rarity a.nav-link{
+        font-size: 18px;
+        padding: 9px 20px;
+        margin: 10px 0px 20px;
+    }
+}
+@media screen and (min-width:768px) and (max-width:1199px){
+    .original-main .rarity {
+        padding: 90px 0px 70px 0px;
+    }
+    .original-main .rarity a.nav-link{
+        font-size: 22px;
+    }
+}   
+@media screen and (min-width:1200px) and (max-width:1299px){
+    .original-main .rarity {
+        padding: 110px 0px 120px 0px;
+    }
+}

@@ -1,0 +1,96 @@
+// Phase 3 start
+.video-main{
+  position: relative;
+}
+.phase-3-main .video-main{
+  height: 270px;
+}
+.video-main img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 16px;
+}
+.video-main .play-icon{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  width: 50px;
+  z-index: 999; 
+  cursor: pointer;
+}
+.video-img{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 16px;
+  background-position: center;
+}
+.inner-charity-auction1{
+  margin-left: 15px;
+}
+.phase-0-main.phase-3-main .phase-title a{
+  background: linear-gradient(269.89deg, #C319C6 11.69%, #C9184A 78.96%);
+}
+.evolution-solmates-sec h2{
+  font-size: 48px;
+    background: linear-gradient( 89deg, #C9184A 11.69%, #C319C6 90.96%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+}
+.evolution-solmates-sec p{
+  max-width: 910px;
+  margin: 15px auto 0;
+}
+.evolution-solmates-sec{
+  margin-top: 80px;
+}
+// Phase 3 end
+@media screen and (max-width:767px){
+  .phase-3-main .video-main{
+    height: auto;
+  }
+  .inner-charity-auction1{
+    margin-left: 0px;
+  }
+  .evolution-solmates-sec {
+    margin-top: 30px;
+  }
+  .evolution-solmates-sec h2 {
+    font-size: 30px;
+  }
+  .evolution-solmates-sec p{
+    margin: 5px auto 0;
+  }
+  .phase-4-main {
+    padding: 35px 0px;
+    margin: 50px 0px;
+  }
+}
+@media screen and (min-width:768px) and (max-width:1023px){
+  .phase-3-main .video-main{
+    height: 190px;
+  }
+  .evolution-solmates-sec h2 {
+    font-size: 34px;
+  }
+  .evolution-solmates-sec p{
+    margin: 10px auto 0;
+  }
+}
+@media screen and (min-width:1024px) and (max-width:1199px){
+  .evolution-solmates-sec h2 {
+      font-size: 38px;
+  }
+  .evolution-solmates-sec p{
+    margin: 10px auto 0;
+  }
+}

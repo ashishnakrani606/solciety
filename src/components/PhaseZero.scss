@@ -1,0 +1,42 @@
+
+// Phase 0 start
+body .medium-container{
+  max-width: 1230px;
+}
+.phase-0-main .phase-title h2 span,
+.phase-0-main .phase-title p span{
+  color: #1CE130;
+}
+.phase-img{
+  margin-top: 40px;
+}
+.mobile-view{
+  display: none;
+}
+.phase-0-main .phase-title a.givewell-btn{
+  background: transparent;
+  padding: 0px;
+  font-size: inherit;
+  margin: inherit;
+  color: #1CE130;
+  margin: 0px;
+}
+// Phase 0 end
+@media screen and (max-width:767px){
+  .phase-img {
+    margin-top: 25px;
+  }
+  .mobile-view{
+    display: block;
+  }
+  .desktop-view{
+    display: none;
+  }
+}
+@media screen and (min-width:768px) and (max-width:1023px){
+  .phase-0-main .phase-title a{
+    font-size: 24px;
+    margin: 10px 0px 20px;
+    padding: 11px 20px;
+  }
+}

@@ -1,0 +1,99 @@
+.mint-serve {
+  max-width: 632px;
+  margin: 32px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.solciety-roadmap-title p {
+  max-width: 840px;
+  margin: 0 auto;
+}
+
+.solciety-roadmap-title h2 {
+  margin-bottom: 20px;
+}
+
+.mint-serve .inner-mint p {
+  background: #0F0F0F;
+  border-radius: 16px;
+  padding: 16px 16px 40px;
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+.mint-serve .inner-mint h5 {
+  background: linear-gradient(269.89deg, #C319C6 11.69%, #C9184A 78.96%);
+  font-weight: 900;
+  font-size: 56px;
+  padding: 18px 10px;
+  border-radius: 16px;
+  text-align: center;
+  margin-top: -29px;
+}
+
+.inner-mint {
+  width: 50%;
+}
+
+.raffle-mining {
+  margin-left: 15px;
+}
+
+.mint-serve .inner-mint.raffle-mining h5 {
+  background: linear-gradient(269.89deg, #272727 11.69%, #383838 78.96%);
+}
+
+@media screen and (max-width: 767px) {
+  .mint-serve {
+    display: block;
+  }
+  .inner-mint {
+    width: 100%;
+  }
+  .mint-serve .inner-mint h5 {
+    font-size: 44px;
+    padding: 18px 10px;
+  }
+  .raffle-mining {
+    margin-left: 0;
+    margin-top: 15px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .mint-serve {
+    margin: 20px auto;
+  }
+  .solciety-roadmap-title h2 {
+    margin-bottom: 15px;
+  }
+  .mint-serve .inner-mint h5 {
+    padding: 13px 10px;
+    font-size: 42px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1199px) {
+  .mint-serve {
+    margin: 25px auto;
+  }
+  .solciety-roadmap-title h2 {
+    margin-bottom: 20px;
+  }
+  .mint-serve .inner-mint h5 {
+    font-size: 44px;
+    padding: 15px 10px;
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1299px) {
+  .mint-serve .inner-mint h5 {
+    font-size: 44px;
+  }
+}
+/*# sourceMappingURL=RoadMap.css.map */

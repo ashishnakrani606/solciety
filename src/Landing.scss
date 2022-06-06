@@ -1,0 +1,1015 @@
+body {
+  font-family: Oxanium;
+}
+.landing-page{
+  // Header
+  .header nav.navbar {
+    background: transparent !important;
+    padding: 40px 0px;
+  }
+  // Header end
+
+  // Hero start
+  .hero-banner{
+    padding-top: 128px;
+    padding-bottom: 200px;
+  }
+  .hero-banner .banner-text {
+    text-align: left;
+  }
+  .hero-banner .banner-text .social-icon ul {
+    padding-left: 0;
+    display: flex;
+    margin: 0;
+  }
+  .hero-banner .banner-text .social-icon ul li {
+    list-style: none;
+    margin: 13px 24px;
+  }
+  .hero-banner .banner-text .social-icon ul li a.nav-link {
+    padding: 0;
+  }
+  .hero-banner .banner-text h1 {
+    font-family: 'Pacifico';
+    margin: 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 96px;
+    transform: rotate(-5.38deg);
+    font-feature-settings: 'ordn' on, 'fina' on, 'calt' off;
+    padding-bottom: 55px;
+    margin-left: -15px;
+    background-image: linear-gradient(359deg, #FFFFFF, #BBBBBB);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .hero-banner .banner-text h3{
+    transform: rotate( -5.38deg);
+    margin-top: -30px;
+    padding-bottom: 130px;
+    font-family: Permanent Marker;
+    font-size: 40px;
+    padding-left: 20px;
+  } 
+  .hero-banner .banner-text a,
+  .find-rescue-sec a{
+    background: #D3EF60;
+    border-radius: 16px;
+    padding: 10px 60px;
+    display: inline-block;
+    font-family: Permanent Marker;
+    color: #000;
+    text-decoration: none;
+    font-size: 40px;
+    position: relative;
+  }
+  .defult-btn{
+    position: relative;
+    display: inline-block;
+  }
+  .defult-btn:before{
+    content: "";
+    position: absolute;
+    background: linear-gradient(269.89deg, #C319C6 11.69%, #C9184A 78.96%);
+    border-radius: 24px;
+    width: 100%;
+    height: 100%;
+    top: 4px;
+    left: 5px;
+    z-index: 0;
+  }
+  .hero-banner .banner-text .slogan {
+    display: inline-flex;
+    align-items: center;
+    padding: 1px 9px;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 8px;
+    margin-left: -9px;
+  }
+  .hero-banner .banner-text .slogan span {
+    font-size: 22px;
+    padding-right: 13px;
+  }
+  .hero-banner .banner-text p.slogan-text {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    max-width: 370px;
+    margin: 0;
+    padding: 22px 0px 22px 0px;
+  }
+  .hero-banner .banner-text p.time-date {
+    font-family: Permanent Marker;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+  }
+  .hero-banner .banner-text .social-icon ul li a.nav-link img {
+    width: 35px;
+  }
+  .hero-banner .container {
+    max-width: 1240px;
+    margin: auto;
+  }
+  .hero-banner .container .row{
+    align-items: center;
+    padding-top: 90;
+  }
+  .hero-banner .container .mint-btn a.nav-link {
+    background: #D3EF60;
+    border-radius: 16px;
+    font-family: Permanent Marker;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 150%;
+    color: #000;
+    margin: 20px 0px;
+  }
+  .hero-banner .banner-img p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+  }
+  .hero-banner:before,
+  #about-main:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 865px;
+    background-image: url(./assets/images/hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    z-index: -1;
+  }
+  .hero-banner:after{
+    content: "";
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.7) 48.3%, rgba(0, 0, 0, 0) 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.2;
+  }
+  @media (min-width:992px) and (max-width:1199px){
+    .hero-banner .banner-text h1 {
+      font-size: 80px;
+    }
+    .hero-banner .container .row {
+      padding-top: 40px;
+    }
+    .hero-banner:before,
+    #about-main:before{
+      background-size: cover;
+    }
+    .hero-banner {
+      padding-top: 10px;
+    }
+  }
+  @media (min-width:768px) and (max-width:1023px){
+    .hero-banner .banner-img p{
+      font-size: 17px;
+    }
+    .hero-banner:before,
+    #about-main:before{
+      background-size: cover;
+      height: 630px;
+    }
+    .header nav.navbar a.navbar-brand {
+      position: unset;
+    }
+    .hero-banner {
+      padding-top: 10px;
+    }
+    .hero-banner .banner-text h1 {
+      font-size: 65px;
+    }
+    .hero-banner .container .row {
+      padding-top: 10px;
+    }
+    .hero-banner .banner-text p.slogan-text {
+      font-size: 16px;
+    }
+    .hero-banner .banner-text p.time-date {
+      font-size: 18px;
+    }
+    .hero-banner .container .mint-btn a.nav-link {
+      font-size: 28px;
+    }
+  }
+  @media (max-width:767px){
+    .header nav.navbar a.navbar-brand {
+      position: unset;
+    }
+    .hero-banner .banner-img p{
+      font-size: 14px;
+    }
+    .hero-banner .banner-text{
+      text-align: center;
+    }
+    .hero-banner .banner-text .social-icon ul{
+      justify-content: center;
+    }
+    .hero-banner:before,
+    #about-main:before{
+      background-size: cover;
+    }
+    .hero-banner .banner-text{
+      padding-top: 15px;
+    }
+    .hero-banner {
+      padding-top: 0px;
+    }
+    .hero-banner .banner-text h1 {
+      font-size: 36px;
+      padding-bottom: 25px;
+    }
+    .hero-banner .container .row {
+      padding-top: 10px;
+    }
+    .hero-banner .banner-text p.slogan-text {
+      font-size: 14px;
+      padding: 11px 0px 12px 0px;
+      margin: 0 auto;
+    }
+    .hero-banner .banner-text p.time-date {
+      font-size: 18px;
+    }
+    .hero-banner .container .mint-btn a.nav-link {
+      font-size: 28px;
+    }
+    .banner-img {
+      order: 1;
+    }
+    .banner-text {
+      order: 2;
+    }
+  }
+  // Hero end
+  // inner section  start
+  .inner-section{
+    background: linear-gradient(0deg, rgba(74, 74, 74, 0.3), rgba(74, 74, 74, 0.3)), linear-gradient(360deg, #C319C6 0%, #FF820F 46.32%, rgba(52, 209, 120, 0.2) 81.58%);
+    position: relative;
+    overflow: hidden;
+  }
+  .inner-section:before{
+    content: "";
+    position: absolute;
+    top: -10%;
+    right: 0%;
+    background-image: url(./assets/images/circle-icon-new.png);
+    
+    background-repeat: no-repeat;
+    width: 1272px;
+    height: 1272px;
+    z-index: -1;
+  }
+  // welcome start
+  .padd-top {
+    padding-top: 90px;
+  }
+  .welcome-top-sec .sub-heading{
+    background: linear-gradient( 0deg, rgba(74, 74, 74, 0), rgba(74, 74, 74, 0)), linear-gradient(360deg, #C319C6 27%, #FF820F 59.32%,#34D178 91.58%);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+  }
+  .welcome-top-sec h3{
+    font-family: Permanent Marker;
+    font-size: 32px;
+    color: rgba(255, 255, 255, 0.75);
+  }
+  .welcome-top-sec > .container{
+    position: relative;
+  }
+  .welcome-top-sec > .container:before,
+  .introducing-sciety-sec > .container:before{
+    content: "";
+    position: absolute;
+    bottom: -245px;
+    left: 50%;
+    width: 150px;
+    height: 200px;
+    background-image: url(./assets/images/down-arrow.png);
+    background-repeat: no-repeat;
+  }
+  .sub-heading{
+    font-size: 70px;
+    padding-bottom: 25px;
+  }
+  .welcome-top-sec .inner-welcome{
+    max-width: 915px;
+    margin: 0 auto;
+    padding-top: 50px;
+    font-family: Oxanium;
+  }
+  // welcome end
+  // the-mines-sec start
+  .the-mines-sec{
+    padding-bottom: 100px;
+  }
+  .the-mines-sec .row{
+    align-items: center;
+  }
+  .the-mines-sec > .container{
+    max-width: 1310px;
+    position: relative;
+  }
+  .the-mines-sec > .container:before,
+  .factor-detail:before{
+    content: "";
+    position: absolute;
+    bottom: -130px;
+    left: 100px;
+    width: 150px;
+    height: 200px;
+    background-image: url(./assets/images/right-down-arrow.png);
+    background-repeat: no-repeat;
+  }
+  .the-mines-sec > .container:before{
+    bottom: -150px;
+  }
+  .the-mines-sec h2{
+    background-image: linear-gradient(359deg, #FFFFFF, #BBBBBB);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .left-the-mines img{
+    max-width: 803px;
+    text-align: left;
+    margin-left: -20px;
+  }
+  .right-the-mines{
+    max-width: 450px;
+    margin-left: auto;
+    text-align: left;
+  }
+  // the-mines-sec end
+  // Introducing-sciety-sec start
+  .introducing-sciety-sec h2{
+    color: #BBBBBB;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  .introducing-sciety-sec{
+    padding-bottom: 120px;
+  }
+  .introducing-sciety-sec h2 span{
+    font-size: 110px;
+    color: #1ce130;
+    padding-top: 20px;
+    display: inline-block;
+  }
+  .introducing-sciety-right p{
+    max-width: 600px;
+    margin-left: auto;
+  }
+  .introducing-sciety-sec > .container{
+    max-width: 1220px;
+    position: relative;
+  }
+  .maximum-sciety-sec h5{
+    font-weight: 800;
+    font-size: 24px;
+  }
+  .maximum-sciety-sec{
+    text-align: center;
+    padding-top: 75px;
+  }
+  .maximum-sciety-sec h2{
+    background: linear-gradient(269.89deg, #FF820F 11.69%, #C319C6 78.96%);
+    border-radius: 16px;
+    text-align: center;
+    display: inline-block;
+    padding: 18px 28px;
+    font-family: Poppins;
+    font-weight: 900;
+    color: #fff;
+    font-size: 56px;
+    margin: 20px 0px 28px;
+  }
+  .maximum-sciety-sec p{
+    font-size: 12px;
+    max-width: 470px;
+    margin: 0 auto;
+  }
+  // Introducing-sciety-sec end
+  // the-factory-sec start
+  .inner-factory-sec .collageoption-img{
+    width: 100%;
+  }
+  .inner-factory-sec{
+    position: relative;
+    padding: 120px 0px;
+  }
+  .the-factory-sec h2{
+    text-align: center;
+    letter-spacing: 10px;
+    margin-bottom: -20px;
+  }
+  .factory-img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .factor-detail{
+    text-align: center;
+    max-width: 660px;
+    position: relative;
+  }
+  .introducing-sciety-sec > .container:before{
+    bottom: -216px;
+    right: 20%;
+    transform: rotate(337deg);
+    left: auto;
+  }
+  .factor-detail:before {
+    bottom: -240px;
+    left: 0;
+  }
+  // the-factory-sec end
+  // inner sextion end
+
+  // Find And Rescue start
+  .find-rescue-sec{
+    background: rgba(3, 3, 3, 0.7);
+    box-shadow: 0px 0px 75px rgba(255, 130, 15, 0.3);
+    border-radius: 24px;
+    padding: 62px 90px 80px 150px;
+    position: relative;
+    overflow: hidden;
+  }
+  .find-rescue-sec:before{
+    content: "";
+    position: absolute;
+    top: -220px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-image: url(./assets/images/circle-icon-new.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 1030px;
+    z-index: 0;
+    background-size: cover;
+    margin-top: 0px;
+  }
+  .find-rescue-top > .container{
+    max-width: 1300px;
+  }
+  .left-find-rescue{
+    width: 38%;
+  }
+  .right-find-rescue{
+    width: 62%;
+  }
+  .left-find-rescue img{
+    z-index: 99;
+    position: relative;
+    margin-left: -60px;
+  }
+  .find-rescue-top{
+    padding: 250px 0px 200px;
+  }
+  .find-rescue-sec a{
+    padding: 10px 60px;
+  }
+  .right-find-rescue .defult-btn{
+    margin-top: 60px;
+  }
+  .find-rescue-sec h2,.find-rescue-sec p,.find-rescue-sec a{
+    position: relative;
+    z-index: 99;
+  }
+  // Find And Rescue end
+  // footer start
+  .inner-footer{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+  }
+  .inner-footer ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  .inner-footer p{
+    color: #fff;
+    font-size: 16px;
+    font-family: Poppins;
+  }
+  .inner-footer ul li{
+    list-style: none;
+    margin-left: 33px;
+  }
+  .inner-footer a.nav-link{
+    padding: 0;
+  }
+  .Footer {
+    padding: 50px 0px;
+  }
+  .Footer .container{
+    max-width: 1170px;
+  }
+  // footer end
+  .navbar-toggler:focus{
+    box-shadow: none;
+  }
+  .find-rescue-top .row{
+    align-items: center;
+  }
+  .arcTextFactory.sub-heading{
+    padding-bottom: 0;
+  }
+  .arcTextFactory.sub-heading span{
+    background-image: linear-gradient( 359deg, #FFFFFF, #BBBBBB);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  .welcome-top-sec{
+    padding-bottom: 40px;
+  }
+  // media
+  @media screen and (max-width:767px){
+    .introducing-sciety-sec h2{
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .the-mines-sec {
+      padding-bottom: 50px;
+    }
+    .welcome-top-sec {
+      padding-bottom: 0;
+    }
+    .the-factory-sec h2{
+      margin-bottom: -10px;
+      letter-spacing: 5px;
+    }
+    .inner-section:before{
+      width: 100%;
+      height: 650px;
+      background-position: bottom;
+      background-size: cover;
+    }
+    .inner-footer p{
+      font-size: 15px;
+      margin: 5px 0px;
+    }
+    .Footer {
+      padding: 25px 0px;
+    }
+    .Footer a.nav-link,.inner-footer ul{
+      justify-content: center;
+    }
+    .inner-footer{
+      display: block;
+    }
+    .right-find-rescue .defult-btn {
+      margin-top: 10px;
+    }
+    .find-rescue-sec{
+      border-radius: 10px;
+      padding: 35px 20px;
+      text-align: center;
+    }
+    .find-rescue-top {
+      padding: 10px 0px 20px;
+    }
+    .left-find-rescue img{
+      margin-left: 0;
+    }
+    .inner-factory-sec{
+      padding: 70px 0px;
+    }
+    .introducing-sciety-sec{
+      padding-bottom: 60px;
+    }
+    .right-the-mines,.introducing-sciety-right p{
+      max-width: 100%;
+      text-align: center;
+    }
+    .factory-img,.right-find-rescue,.left-find-rescue,
+    .left-find-rescue img{
+      width: 100%;
+    }
+    .maximum-sciety-sec h2{
+      padding: 15px 20px;
+      font-size: 33px;
+      margin: 15px 0px 20px;
+      border-radius: 10px;
+    }
+    .maximum-sciety-sec{
+      padding-top: 55px;
+    }
+    .introducing-sciety-sec h2 span {
+      font-size: 50px;
+      padding-top: 10px;
+    }
+    .the-mines-sec > .container:before, .factor-detail:before{
+      bottom: -100px;
+      left: 0px;
+      width: 70px;
+      height: 100px;
+      background-size: cover;
+    }
+    .factor-detail:before{
+      bottom: -90px;
+    }
+    .welcome-top-sec > .container:before, .introducing-sciety-sec > .container:before{
+      bottom: -104px;
+      right: 20px;
+      width: 70px;
+      height: 100px;
+      background-size: cover;
+      left: auto;
+    }
+    
+    .introducing-sciety-sec > .container:before{
+      bottom: -114px;
+    }
+    .left-the-mines img{
+      width: 100%;
+      margin: 0 auto;
+    }
+    .welcome-top-sec .inner-welcome{
+      padding-top: 20px;
+    }
+    .padd-top {
+      padding-top: 50px;
+    }
+    .welcome-top-sec h3{
+      font-size: 20px;
+    }
+    .sub-heading {
+      font-size: 37px;
+      padding-bottom: 15px;
+    }
+    .header nav.navbar{
+      padding: 10px 0px;
+    }
+    .hero-banner:before, #about-main:before{
+      height: 479px;
+    }
+    .hero-banner .banner-text h1 {
+      font-size: 40px;
+    }
+    .hero-banner .banner-text a, .find-rescue-sec a{
+      padding: 8px 35px;
+      font-size: 21px;
+      border-radius: 10px;
+    }
+    .defult-btn:before{
+      border-radius: 10px;
+    }
+    .mobile-btn-set{
+      outline: none;
+    }
+    .hero-banner .banner-text{
+      padding-top: 73px;
+    }
+    .hero-banner .banner-text h3{
+      margin-top: 0;
+      padding-bottom: 50px;
+      font-size: 28px;
+      padding-left: 0;
+    }
+    .hero-banner{
+      padding-bottom: 90px;
+    }
+    .inner-footer ul li{
+      margin: 0px 10px;
+    }
+  }
+  @media screen and (min-width:480px) and (max-width:767px){
+    .inner-factory-sec {
+      padding: 90px 0px;
+    }
+  }
+  @media screen and (min-width:373px) and (max-width:767px){
+    .hero-banner {
+      padding-bottom: 124px;
+    }
+  }
+  @media screen and (min-width:600px) and (max-width:767px){
+    .inner-factory-sec {
+      padding: 120px 0px;
+    }
+  }
+  @media screen and (min-width:768px) and (max-width:1023px){
+    .inner-footer p{
+      font-size: 15px;
+    }
+    .Footer {
+      padding: 20px 0px;
+    }
+    .find-rescue-top {
+      padding: 100px 0px 60px;
+    }
+    .left-find-rescue img{
+      margin-left: -50px;
+      max-width: 450px;
+    }
+    .right-find-rescue .defult-btn {
+      margin-top: 30px;
+    }
+    .find-rescue-sec{
+      padding: 40px 20px 50px 70px;
+    }
+    .inner-factory-sec{
+      padding: 130px 0px;
+    }
+    .factory-img{
+      width: 100%;
+    }
+    .introducing-sciety-sec{
+      padding-bottom: 70px;
+    }
+    .maximum-sciety-sec h2{
+      font-size: 43px;
+    }
+    .the-mines-sec > .container:before, .factor-detail:before{
+      bottom: -100px;
+      left: 50px;
+      width: 90px;
+      height: 130px;
+      background-size: cover;
+    }
+    .factor-detail:before {
+      bottom: -150px;
+    }
+    .introducing-sciety-sec h2 span{
+      font-size: 60px;
+      padding-top: 10px;
+    }
+    .left-the-mines img{
+      width: 100%;
+    }
+    .welcome-top-sec > .container:before, .introducing-sciety-sec > .container:before{
+      right: 60px;
+      left: auto;
+      width: 80px;
+      height: 120px;
+      background-size: cover;
+      bottom: -105px;
+    }
+    .introducing-sciety-sec > .container:before {
+      right: 220px;
+      width: 80px;
+      height: 120px;
+      background-size: cover;
+      bottom: -135px;
+    }
+    .inner-section:before{
+      width: 772px;
+      height: 900px;
+      background-size: cover;
+    }
+    .welcome-top-sec .inner-welcome{
+      padding-top: 30px;
+    }
+    .welcome-top-sec h3{
+      font-size: 27px;
+    }
+    .sub-heading {
+      font-size: 52px;
+      padding-bottom: 15px;
+    }
+    .padd-top {
+      padding-top: 60px;
+    }
+    .defult-btn:before{
+      border-radius: 17px;
+    }
+    .header nav.navbar{
+      padding: 15px 0px;
+    }
+    .hero-banner{
+      padding-bottom: 140px;
+      padding-top: 80px;
+    }
+    .hero-banner .banner-text a, .find-rescue-sec a{
+      padding: 10px 50px;
+      font-size: 30px;
+      border-radius: 13px;
+    }
+    .hero-banner .banner-text h3{
+      margin-top: -20px;
+      padding-bottom: 100px;
+      font-size: 35px;
+    }
+    .hero-banner .banner-text h1{
+      margin-left: 0;
+    }
+  }
+  @media screen and (min-width:860px) and (max-width:992px){
+    .inner-factory-sec {
+      padding: 150px 0px;
+    }
+  }
+  @media screen and (min-width:992px) and (max-width:1023px){
+    .left-find-rescue img {
+      margin-left: -50px;
+      max-width: 520px;
+    }
+    .introducing-sciety-sec > .container:before {
+      right: 280px;
+      left: auto;
+      width: 80px;
+      height: 120px;
+      background-size: cover;
+      bottom: -135px;
+    }
+    .inner-factory-sec {
+      padding: 180px 0px;
+    }
+    .container{
+      padding-left: 25px;
+      padding-right: 25px;
+    }
+    .welcome-top-sec > .container:before, .introducing-sciety-sec > .container:before{
+      right: 60px;
+      left: auto;
+      width: 110px;
+      height: 150px;
+      background-size: cover;
+      bottom: -145px;
+    }
+    .introducing-sciety-sec > .container:before {
+      right: 220px;
+      background-size: cover;
+      bottom: -154px;
+    }
+    .sub-heading {
+      font-size: 60px;
+      padding-bottom: 20px;
+    }
+    .welcome-top-sec h3 {
+      font-size: 33px;
+    }
+  }
+  @media screen and (min-width:1024px) and (max-width:1199px){
+    .Footer {
+      padding: 30px 0px;
+    }
+    .left-find-rescue img{
+      margin-left: -60px;
+      max-width: 620px;
+    }
+    .right-find-rescue .defult-btn {
+      margin-top: 40px;
+    }
+    .find-rescue-sec{
+      padding: 52px 60px 60px 140px;
+    }
+    .factor-detail:before {
+      bottom: -210px;
+    }
+    .find-rescue-top {
+      padding: 180px 0px 150px;
+    }
+    .inner-factory-sec {
+      padding: 190px 0px;
+    }
+    .maximum-sciety-sec h2{
+      font-size: 50px;
+    }
+    .introducing-sciety-sec h2 span {
+      font-size: 80px;
+    }
+    .welcome-top-sec > .container:before, .introducing-sciety-sec > .container:before{
+      bottom: -205px;
+      right: 10%;
+      left: auto;
+    }
+    .introducing-sciety-sec > .container:before {
+      right: 22%;
+    }
+    .welcome-top-sec h3{
+      font-size: 29px;
+    }
+    .welcome-top-sec{
+      padding-bottom: 30px;
+    }
+    .sub-heading {
+      font-size: 64px;
+    }
+    .header nav.navbar {
+      padding: 25px 0px;
+    }
+    .left-the-mines img{
+      max-width: 543px;
+    }
+    .welcome-top-sec .inner-welcome{
+      padding-top: 40px;
+    }
+    .padd-top {
+      padding-top: 80px;
+    }
+    .hero-banner:before, #about-main:before{
+      height: 707px;
+    }
+    .hero-banner {
+      padding-top: 82px;
+      padding-bottom: 170px;
+    }
+    .container {
+      padding-left: 25px;
+      padding-right: 25px;
+    }
+    .hero-banner .banner-text h1{
+      margin-left: 0;
+    }
+    .hero-banner .banner-text h3{
+      padding-bottom: 110px;
+      font-size: 36px;
+    }
+    .hero-banner .banner-text a, .find-rescue-sec a{
+      padding: 10px 55px;
+      font-size: 34px;
+    }
+    .the-mines-sec > .container:before{
+      bottom: -140px;
+    }
+    .factory-img{
+      width: 100%;
+    }
+  }
+  @media screen and (min-width:1200px) and (max-width:1299px){
+    .Footer {
+      padding: 40px 0px;
+    }
+    .sub-heading {
+      font-size: 60px;
+    }
+    .inner-factory-sec {
+      padding: 180px 0px;
+    }
+    .introducing-sciety-sec h2 span {
+      font-size: 90px;
+    }
+    .left-the-mines img {
+      max-width: 703px;
+    }
+    .welcome-top-sec > .container:before, .introducing-sciety-sec > .container:before{
+      left: 58%;
+    }
+    .hero-banner:before, #about-main:before{
+      height: 841px;
+    }
+    .hero-banner {
+      padding-top: 140px;
+      padding-bottom: 190px;
+    }
+    .container {
+      padding-left: 25px;
+      padding-right: 25px;
+    }
+    .hero-banner .banner-text h1{
+      margin-left: 0;
+    }
+    .hero-banner .banner-text h3{
+      padding-bottom: 110px;
+    }
+    .hero-banner .banner-text a, .find-rescue-sec a{
+      padding: 10px 50px;
+      font-size: 36px;
+    }
+  }
+  @media screen and (min-width:1300px) and (max-width:1599px){
+    .inner-factory-sec {
+      padding: 170px 0px;
+    }
+    .inner-section:before{
+      top: -12%;
+      right: -20%;
+    }
+  }
+  @media screen and (min-width:1400px) and (max-width:1599px){
+    .inner-section:before {
+      top: -11%;
+      right: -16%;
+    }
+  }
+}

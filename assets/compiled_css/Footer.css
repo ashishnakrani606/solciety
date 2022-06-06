@@ -1,0 +1,79 @@
+.Footer a.nav-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.Footer a.nav-link img {
+  padding-top: 9px;
+  padding-right: 5px;
+}
+
+.Footer a.nav-link span {
+  color: #fff;
+  font-family: Pacifico;
+  font-size: 32px;
+}
+
+.Footer p {
+  margin: 0;
+  background: linear-gradient(186deg, #d3ef60, #738b0e, #d3ef60, #d3ef60, #d3ef60);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: rgba(0, 0, 0, 0.2);
+  font-size: 16px;
+}
+
+.Footer {
+  padding: 30px 0px;
+}
+
+.Footer .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.Footer .container .social-icon ul {
+  padding: 0;
+  margin: 0;
+}
+
+.Footer .container .social-icon ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.Footer .container .social-icon ul li a.nav-link img {
+  padding-top: 0px;
+  padding-right: 0;
+}
+
+@media (max-width: 767px) {
+  .Footer a.nav-link span {
+    font-size: 22px;
+  }
+  .Footer a.nav-link img {
+    padding-top: 3px;
+  }
+  .Footer .container {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .Footer .container p {
+    padding-bottom: 10px;
+  }
+  .Footer {
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=Footer.css.map */

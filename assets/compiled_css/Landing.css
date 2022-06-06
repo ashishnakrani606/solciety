@@ -1,0 +1,1121 @@
+body {
+  font-family: Oxanium;
+}
+
+.landing-page .header nav.navbar {
+  background: transparent !important;
+  padding: 40px 0px;
+}
+
+.landing-page .hero-banner {
+  padding-top: 128px;
+  padding-bottom: 200px;
+}
+
+.landing-page .hero-banner .banner-text {
+  text-align: left;
+}
+
+.landing-page .hero-banner .banner-text .social-icon ul {
+  padding-left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+}
+
+.landing-page .hero-banner .banner-text .social-icon ul li {
+  list-style: none;
+  margin: 13px 24px;
+}
+
+.landing-page .hero-banner .banner-text .social-icon ul li a.nav-link {
+  padding: 0;
+}
+
+.landing-page .hero-banner .banner-text h1 {
+  font-family: 'Pacifico';
+  margin: 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 96px;
+  -webkit-transform: rotate(-5.38deg);
+          transform: rotate(-5.38deg);
+  -webkit-font-feature-settings: 'ordn' on, 'fina' on, 'calt' off;
+          font-feature-settings: 'ordn' on, 'fina' on, 'calt' off;
+  padding-bottom: 55px;
+  margin-left: -15px;
+  background-image: linear-gradient(359deg, #FFFFFF, #BBBBBB);
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.landing-page .hero-banner .banner-text h3 {
+  -webkit-transform: rotate(-5.38deg);
+          transform: rotate(-5.38deg);
+  margin-top: -30px;
+  padding-bottom: 130px;
+  font-family: Permanent Marker;
+  font-size: 40px;
+  padding-left: 20px;
+}
+
+.landing-page .hero-banner .banner-text a,
+.landing-page .find-rescue-sec a {
+  background: #D3EF60;
+  border-radius: 16px;
+  padding: 10px 60px;
+  display: inline-block;
+  font-family: Permanent Marker;
+  color: #000;
+  text-decoration: none;
+  font-size: 40px;
+  position: relative;
+}
+
+.landing-page .defult-btn {
+  position: relative;
+  display: inline-block;
+}
+
+.landing-page .defult-btn:before {
+  content: "";
+  position: absolute;
+  background: linear-gradient(269.89deg, #C319C6 11.69%, #C9184A 78.96%);
+  border-radius: 24px;
+  width: 100%;
+  height: 100%;
+  top: 4px;
+  left: 5px;
+  z-index: 0;
+}
+
+.landing-page .hero-banner .banner-text .slogan {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1px 9px;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 8px;
+  margin-left: -9px;
+}
+
+.landing-page .hero-banner .banner-text .slogan span {
+  font-size: 22px;
+  padding-right: 13px;
+}
+
+.landing-page .hero-banner .banner-text p.slogan-text {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  max-width: 370px;
+  margin: 0;
+  padding: 22px 0px 22px 0px;
+}
+
+.landing-page .hero-banner .banner-text p.time-date {
+  font-family: Permanent Marker;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+}
+
+.landing-page .hero-banner .banner-text .social-icon ul li a.nav-link img {
+  width: 35px;
+}
+
+.landing-page .hero-banner .container {
+  max-width: 1240px;
+  margin: auto;
+}
+
+.landing-page .hero-banner .container .row {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 90;
+}
+
+.landing-page .hero-banner .container .mint-btn a.nav-link {
+  background: #D3EF60;
+  border-radius: 16px;
+  font-family: Permanent Marker;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 150%;
+  color: #000;
+  margin: 20px 0px;
+}
+
+.landing-page .hero-banner .banner-img p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+.landing-page .hero-banner:before,
+.landing-page #about-main:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 865px;
+  background-image: url(./assets/images/hero-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  z-index: -1;
+}
+
+.landing-page .hero-banner:after {
+  content: "";
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(48.3%, rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0)));
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.7) 48.3%, rgba(0, 0, 0, 0) 100%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.2;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .landing-page .hero-banner .banner-text h1 {
+    font-size: 80px;
+  }
+  .landing-page .hero-banner .container .row {
+    padding-top: 40px;
+  }
+  .landing-page .hero-banner:before,
+  .landing-page #about-main:before {
+    background-size: cover;
+  }
+  .landing-page .hero-banner {
+    padding-top: 10px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .landing-page .hero-banner .banner-img p {
+    font-size: 17px;
+  }
+  .landing-page .hero-banner:before,
+  .landing-page #about-main:before {
+    background-size: cover;
+    height: 630px;
+  }
+  .landing-page .header nav.navbar a.navbar-brand {
+    position: unset;
+  }
+  .landing-page .hero-banner {
+    padding-top: 10px;
+  }
+  .landing-page .hero-banner .banner-text h1 {
+    font-size: 65px;
+  }
+  .landing-page .hero-banner .container .row {
+    padding-top: 10px;
+  }
+  .landing-page .hero-banner .banner-text p.slogan-text {
+    font-size: 16px;
+  }
+  .landing-page .hero-banner .banner-text p.time-date {
+    font-size: 18px;
+  }
+  .landing-page .hero-banner .container .mint-btn a.nav-link {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 767px) {
+  .landing-page .header nav.navbar a.navbar-brand {
+    position: unset;
+  }
+  .landing-page .hero-banner .banner-img p {
+    font-size: 14px;
+  }
+  .landing-page .hero-banner .banner-text {
+    text-align: center;
+  }
+  .landing-page .hero-banner .banner-text .social-icon ul {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .landing-page .hero-banner:before,
+  .landing-page #about-main:before {
+    background-size: cover;
+  }
+  .landing-page .hero-banner .banner-text {
+    padding-top: 15px;
+  }
+  .landing-page .hero-banner {
+    padding-top: 0px;
+  }
+  .landing-page .hero-banner .banner-text h1 {
+    font-size: 36px;
+    padding-bottom: 25px;
+  }
+  .landing-page .hero-banner .container .row {
+    padding-top: 10px;
+  }
+  .landing-page .hero-banner .banner-text p.slogan-text {
+    font-size: 14px;
+    padding: 11px 0px 12px 0px;
+    margin: 0 auto;
+  }
+  .landing-page .hero-banner .banner-text p.time-date {
+    font-size: 18px;
+  }
+  .landing-page .hero-banner .container .mint-btn a.nav-link {
+    font-size: 28px;
+  }
+  .landing-page .banner-img {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .landing-page .banner-text {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+}
+
+.landing-page .inner-section {
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(74, 74, 74, 0.3)), to(rgba(74, 74, 74, 0.3))), -webkit-gradient(linear, left bottom, left top, from(#C319C6), color-stop(46.32%, #FF820F), color-stop(81.58%, rgba(52, 209, 120, 0.2)));
+  background: linear-gradient(0deg, rgba(74, 74, 74, 0.3), rgba(74, 74, 74, 0.3)), linear-gradient(360deg, #C319C6 0%, #FF820F 46.32%, rgba(52, 209, 120, 0.2) 81.58%);
+  position: relative;
+  overflow: hidden;
+}
+
+.landing-page .inner-section:before {
+  content: "";
+  position: absolute;
+  top: -10%;
+  right: 0%;
+  background-image: url(./assets/images/circle-icon-new.png);
+  background-repeat: no-repeat;
+  width: 1272px;
+  height: 1272px;
+  z-index: -1;
+}
+
+.landing-page .padd-top {
+  padding-top: 90px;
+}
+
+.landing-page .welcome-top-sec .sub-heading {
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(74, 74, 74, 0)), to(rgba(74, 74, 74, 0))), -webkit-gradient(linear, left bottom, left top, color-stop(27%, #C319C6), color-stop(59.32%, #FF820F), color-stop(91.58%, #34D178));
+  background: linear-gradient(0deg, rgba(74, 74, 74, 0), rgba(74, 74, 74, 0)), linear-gradient(360deg, #C319C6 27%, #FF820F 59.32%, #34D178 91.58%);
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+}
+
+.landing-page .welcome-top-sec h3 {
+  font-family: Permanent Marker;
+  font-size: 32px;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.landing-page .welcome-top-sec > .container {
+  position: relative;
+}
+
+.landing-page .welcome-top-sec > .container:before,
+.landing-page .introducing-sciety-sec > .container:before {
+  content: "";
+  position: absolute;
+  bottom: -245px;
+  left: 50%;
+  width: 150px;
+  height: 200px;
+  background-image: url(./assets/images/down-arrow.png);
+  background-repeat: no-repeat;
+}
+
+.landing-page .sub-heading {
+  font-size: 70px;
+  padding-bottom: 25px;
+}
+
+.landing-page .welcome-top-sec .inner-welcome {
+  max-width: 915px;
+  margin: 0 auto;
+  padding-top: 50px;
+  font-family: Oxanium;
+}
+
+.landing-page .the-mines-sec {
+  padding-bottom: 100px;
+}
+
+.landing-page .the-mines-sec .row {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.landing-page .the-mines-sec > .container {
+  max-width: 1310px;
+  position: relative;
+}
+
+.landing-page .the-mines-sec > .container:before,
+.landing-page .factor-detail:before {
+  content: "";
+  position: absolute;
+  bottom: -130px;
+  left: 100px;
+  width: 150px;
+  height: 200px;
+  background-image: url(./assets/images/right-down-arrow.png);
+  background-repeat: no-repeat;
+}
+
+.landing-page .the-mines-sec > .container:before {
+  bottom: -150px;
+}
+
+.landing-page .the-mines-sec h2 {
+  background-image: linear-gradient(359deg, #FFFFFF, #BBBBBB);
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.landing-page .left-the-mines img {
+  max-width: 803px;
+  text-align: left;
+  margin-left: -20px;
+}
+
+.landing-page .right-the-mines {
+  max-width: 450px;
+  margin-left: auto;
+  text-align: left;
+}
+
+.landing-page .introducing-sciety-sec h2 {
+  color: #BBBBBB;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.landing-page .introducing-sciety-sec {
+  padding-bottom: 120px;
+}
+
+.landing-page .introducing-sciety-sec h2 span {
+  font-size: 110px;
+  color: #1ce130;
+  padding-top: 20px;
+  display: inline-block;
+}
+
+.landing-page .introducing-sciety-right p {
+  max-width: 600px;
+  margin-left: auto;
+}
+
+.landing-page .introducing-sciety-sec > .container {
+  max-width: 1220px;
+  position: relative;
+}
+
+.landing-page .maximum-sciety-sec h5 {
+  font-weight: 800;
+  font-size: 24px;
+}
+
+.landing-page .maximum-sciety-sec {
+  text-align: center;
+  padding-top: 75px;
+}
+
+.landing-page .maximum-sciety-sec h2 {
+  background: linear-gradient(269.89deg, #FF820F 11.69%, #C319C6 78.96%);
+  border-radius: 16px;
+  text-align: center;
+  display: inline-block;
+  padding: 18px 28px;
+  font-family: Poppins;
+  font-weight: 900;
+  color: #fff;
+  font-size: 56px;
+  margin: 20px 0px 28px;
+}
+
+.landing-page .maximum-sciety-sec p {
+  font-size: 12px;
+  max-width: 470px;
+  margin: 0 auto;
+}
+
+.landing-page .inner-factory-sec .collageoption-img {
+  width: 100%;
+}
+
+.landing-page .inner-factory-sec {
+  position: relative;
+  padding: 120px 0px;
+}
+
+.landing-page .the-factory-sec h2 {
+  text-align: center;
+  letter-spacing: 10px;
+  margin-bottom: -20px;
+}
+
+.landing-page .factory-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.landing-page .factor-detail {
+  text-align: center;
+  max-width: 660px;
+  position: relative;
+}
+
+.landing-page .introducing-sciety-sec > .container:before {
+  bottom: -216px;
+  right: 20%;
+  -webkit-transform: rotate(337deg);
+          transform: rotate(337deg);
+  left: auto;
+}
+
+.landing-page .factor-detail:before {
+  bottom: -240px;
+  left: 0;
+}
+
+.landing-page .find-rescue-sec {
+  background: rgba(3, 3, 3, 0.7);
+  -webkit-box-shadow: 0px 0px 75px rgba(255, 130, 15, 0.3);
+          box-shadow: 0px 0px 75px rgba(255, 130, 15, 0.3);
+  border-radius: 24px;
+  padding: 62px 90px 80px 150px;
+  position: relative;
+  overflow: hidden;
+}
+
+.landing-page .find-rescue-sec:before {
+  content: "";
+  position: absolute;
+  top: -220px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  background-image: url(./assets/images/circle-icon-new.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 1030px;
+  z-index: 0;
+  background-size: cover;
+  margin-top: 0px;
+}
+
+.landing-page .find-rescue-top > .container {
+  max-width: 1300px;
+}
+
+.landing-page .left-find-rescue {
+  width: 38%;
+}
+
+.landing-page .right-find-rescue {
+  width: 62%;
+}
+
+.landing-page .left-find-rescue img {
+  z-index: 99;
+  position: relative;
+  margin-left: -60px;
+}
+
+.landing-page .find-rescue-top {
+  padding: 250px 0px 200px;
+}
+
+.landing-page .find-rescue-sec a {
+  padding: 10px 60px;
+}
+
+.landing-page .right-find-rescue .defult-btn {
+  margin-top: 60px;
+}
+
+.landing-page .find-rescue-sec h2, .landing-page .find-rescue-sec p, .landing-page .find-rescue-sec a {
+  position: relative;
+  z-index: 99;
+}
+
+.landing-page .inner-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.landing-page .inner-footer ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.landing-page .inner-footer p {
+  color: #fff;
+  font-size: 16px;
+  font-family: Poppins;
+}
+
+.landing-page .inner-footer ul li {
+  list-style: none;
+  margin-left: 33px;
+}
+
+.landing-page .inner-footer a.nav-link {
+  padding: 0;
+}
+
+.landing-page .Footer {
+  padding: 50px 0px;
+}
+
+.landing-page .Footer .container {
+  max-width: 1170px;
+}
+
+.landing-page .navbar-toggler:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.landing-page .find-rescue-top .row {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.landing-page .arcTextFactory.sub-heading {
+  padding-bottom: 0;
+}
+
+.landing-page .arcTextFactory.sub-heading span {
+  background-image: linear-gradient(359deg, #FFFFFF, #BBBBBB);
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.landing-page .welcome-top-sec {
+  padding-bottom: 40px;
+}
+
+@media screen and (max-width: 767px) {
+  .landing-page .introducing-sciety-sec h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .landing-page .the-mines-sec {
+    padding-bottom: 50px;
+  }
+  .landing-page .welcome-top-sec {
+    padding-bottom: 0;
+  }
+  .landing-page .the-factory-sec h2 {
+    margin-bottom: -10px;
+    letter-spacing: 5px;
+  }
+  .landing-page .inner-section:before {
+    width: 100%;
+    height: 650px;
+    background-position: bottom;
+    background-size: cover;
+  }
+  .landing-page .inner-footer p {
+    font-size: 15px;
+    margin: 5px 0px;
+  }
+  .landing-page .Footer {
+    padding: 25px 0px;
+  }
+  .landing-page .Footer a.nav-link, .landing-page .inner-footer ul {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .landing-page .inner-footer {
+    display: block;
+  }
+  .landing-page .right-find-rescue .defult-btn {
+    margin-top: 10px;
+  }
+  .landing-page .find-rescue-sec {
+    border-radius: 10px;
+    padding: 35px 20px;
+    text-align: center;
+  }
+  .landing-page .find-rescue-top {
+    padding: 10px 0px 20px;
+  }
+  .landing-page .left-find-rescue img {
+    margin-left: 0;
+  }
+  .landing-page .inner-factory-sec {
+    padding: 70px 0px;
+  }
+  .landing-page .introducing-sciety-sec {
+    padding-bottom: 60px;
+  }
+  .landing-page .right-the-mines, .landing-page .introducing-sciety-right p {
+    max-width: 100%;
+    text-align: center;
+  }
+  .landing-page .factory-img, .landing-page .right-find-rescue, .landing-page .left-find-rescue,
+  .landing-page .left-find-rescue img {
+    width: 100%;
+  }
+  .landing-page .maximum-sciety-sec h2 {
+    padding: 15px 20px;
+    font-size: 33px;
+    margin: 15px 0px 20px;
+    border-radius: 10px;
+  }
+  .landing-page .maximum-sciety-sec {
+    padding-top: 55px;
+  }
+  .landing-page .introducing-sciety-sec h2 span {
+    font-size: 50px;
+    padding-top: 10px;
+  }
+  .landing-page .the-mines-sec > .container:before, .landing-page .factor-detail:before {
+    bottom: -100px;
+    left: 0px;
+    width: 70px;
+    height: 100px;
+    background-size: cover;
+  }
+  .landing-page .factor-detail:before {
+    bottom: -90px;
+  }
+  .landing-page .welcome-top-sec > .container:before, .landing-page .introducing-sciety-sec > .container:before {
+    bottom: -104px;
+    right: 20px;
+    width: 70px;
+    height: 100px;
+    background-size: cover;
+    left: auto;
+  }
+  .landing-page .introducing-sciety-sec > .container:before {
+    bottom: -114px;
+  }
+  .landing-page .left-the-mines img {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .landing-page .welcome-top-sec .inner-welcome {
+    padding-top: 20px;
+  }
+  .landing-page .padd-top {
+    padding-top: 50px;
+  }
+  .landing-page .welcome-top-sec h3 {
+    font-size: 20px;
+  }
+  .landing-page .sub-heading {
+    font-size: 37px;
+    padding-bottom: 15px;
+  }
+  .landing-page .header nav.navbar {
+    padding: 10px 0px;
+  }
+  .landing-page .hero-banner:before, .landing-page #about-main:before {
+    height: 479px;
+  }
+  .landing-page .hero-banner .banner-text h1 {
+    font-size: 40px;
+  }
+  .landing-page .hero-banner .banner-text a, .landing-page .find-rescue-sec a {
+    padding: 8px 35px;
+    font-size: 21px;
+    border-radius: 10px;
+  }
+  .landing-page .defult-btn:before {
+    border-radius: 10px;
+  }
+  .landing-page .mobile-btn-set {
+    outline: none;
+  }
+  .landing-page .hero-banner .banner-text {
+    padding-top: 73px;
+  }
+  .landing-page .hero-banner .banner-text h3 {
+    margin-top: 0;
+    padding-bottom: 50px;
+    font-size: 28px;
+    padding-left: 0;
+  }
+  .landing-page .hero-banner {
+    padding-bottom: 90px;
+  }
+  .landing-page .inner-footer ul li {
+    margin: 0px 10px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .landing-page .inner-factory-sec {
+    padding: 90px 0px;
+  }
+}
+
+@media screen and (min-width: 373px) and (max-width: 767px) {
+  .landing-page .hero-banner {
+    padding-bottom: 124px;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 767px) {
+  .landing-page .inner-factory-sec {
+    padding: 120px 0px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .landing-page .inner-footer p {
+    font-size: 15px;
+  }
+  .landing-page .Footer {
+    padding: 20px 0px;
+  }
+  .landing-page .find-rescue-top {
+    padding: 100px 0px 60px;
+  }
+  .landing-page .left-find-rescue img {
+    margin-left: -50px;
+    max-width: 450px;
+  }
+  .landing-page .right-find-rescue .defult-btn {
+    margin-top: 30px;
+  }
+  .landing-page .find-rescue-sec {
+    padding: 40px 20px 50px 70px;
+  }
+  .landing-page .inner-factory-sec {
+    padding: 130px 0px;
+  }
+  .landing-page .factory-img {
+    width: 100%;
+  }
+  .landing-page .introducing-sciety-sec {
+    padding-bottom: 70px;
+  }
+  .landing-page .maximum-sciety-sec h2 {
+    font-size: 43px;
+  }
+  .landing-page .the-mines-sec > .container:before, .landing-page .factor-detail:before {
+    bottom: -100px;
+    left: 50px;
+    width: 90px;
+    height: 130px;
+    background-size: cover;
+  }
+  .landing-page .factor-detail:before {
+    bottom: -150px;
+  }
+  .landing-page .introducing-sciety-sec h2 span {
+    font-size: 60px;
+    padding-top: 10px;
+  }
+  .landing-page .left-the-mines img {
+    width: 100%;
+  }
+  .landing-page .welcome-top-sec > .container:before, .landing-page .introducing-sciety-sec > .container:before {
+    right: 60px;
+    left: auto;
+    width: 80px;
+    height: 120px;
+    background-size: cover;
+    bottom: -105px;
+  }
+  .landing-page .introducing-sciety-sec > .container:before {
+    right: 220px;
+    width: 80px;
+    height: 120px;
+    background-size: cover;
+    bottom: -135px;
+  }
+  .landing-page .inner-section:before {
+    width: 772px;
+    height: 900px;
+    background-size: cover;
+  }
+  .landing-page .welcome-top-sec .inner-welcome {
+    padding-top: 30px;
+  }
+  .landing-page .welcome-top-sec h3 {
+    font-size: 27px;
+  }
+  .landing-page .sub-heading {
+    font-size: 52px;
+    padding-bottom: 15px;
+  }
+  .landing-page .padd-top {
+    padding-top: 60px;
+  }
+  .landing-page .defult-btn:before {
+    border-radius: 17px;
+  }
+  .landing-page .header nav.navbar {
+    padding: 15px 0px;
+  }
+  .landing-page .hero-banner {
+    padding-bottom: 140px;
+    padding-top: 80px;
+  }
+  .landing-page .hero-banner .banner-text a, .landing-page .find-rescue-sec a {
+    padding: 10px 50px;
+    font-size: 30px;
+    border-radius: 13px;
+  }
+  .landing-page .hero-banner .banner-text h3 {
+    margin-top: -20px;
+    padding-bottom: 100px;
+    font-size: 35px;
+  }
+  .landing-page .hero-banner .banner-text h1 {
+    margin-left: 0;
+  }
+}
+
+@media screen and (min-width: 860px) and (max-width: 992px) {
+  .landing-page .inner-factory-sec {
+    padding: 150px 0px;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1023px) {
+  .landing-page .left-find-rescue img {
+    margin-left: -50px;
+    max-width: 520px;
+  }
+  .landing-page .introducing-sciety-sec > .container:before {
+    right: 280px;
+    left: auto;
+    width: 80px;
+    height: 120px;
+    background-size: cover;
+    bottom: -135px;
+  }
+  .landing-page .inner-factory-sec {
+    padding: 180px 0px;
+  }
+  .landing-page .container {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .landing-page .welcome-top-sec > .container:before, .landing-page .introducing-sciety-sec > .container:before {
+    right: 60px;
+    left: auto;
+    width: 110px;
+    height: 150px;
+    background-size: cover;
+    bottom: -145px;
+  }
+  .landing-page .introducing-sciety-sec > .container:before {
+    right: 220px;
+    background-size: cover;
+    bottom: -154px;
+  }
+  .landing-page .sub-heading {
+    font-size: 60px;
+    padding-bottom: 20px;
+  }
+  .landing-page .welcome-top-sec h3 {
+    font-size: 33px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1199px) {
+  .landing-page .Footer {
+    padding: 30px 0px;
+  }
+  .landing-page .left-find-rescue img {
+    margin-left: -60px;
+    max-width: 620px;
+  }
+  .landing-page .right-find-rescue .defult-btn {
+    margin-top: 40px;
+  }
+  .landing-page .find-rescue-sec {
+    padding: 52px 60px 60px 140px;
+  }
+  .landing-page .factor-detail:before {
+    bottom: -210px;
+  }
+  .landing-page .find-rescue-top {
+    padding: 180px 0px 150px;
+  }
+  .landing-page .inner-factory-sec {
+    padding: 190px 0px;
+  }
+  .landing-page .maximum-sciety-sec h2 {
+    font-size: 50px;
+  }
+  .landing-page .introducing-sciety-sec h2 span {
+    font-size: 80px;
+  }
+  .landing-page .welcome-top-sec > .container:before, .landing-page .introducing-sciety-sec > .container:before {
+    bottom: -205px;
+    right: 10%;
+    left: auto;
+  }
+  .landing-page .introducing-sciety-sec > .container:before {
+    right: 22%;
+  }
+  .landing-page .welcome-top-sec h3 {
+    font-size: 29px;
+  }
+  .landing-page .welcome-top-sec {
+    padding-bottom: 30px;
+  }
+  .landing-page .sub-heading {
+    font-size: 64px;
+  }
+  .landing-page .header nav.navbar {
+    padding: 25px 0px;
+  }
+  .landing-page .left-the-mines img {
+    max-width: 543px;
+  }
+  .landing-page .welcome-top-sec .inner-welcome {
+    padding-top: 40px;
+  }
+  .landing-page .padd-top {
+    padding-top: 80px;
+  }
+  .landing-page .hero-banner:before, .landing-page #about-main:before {
+    height: 707px;
+  }
+  .landing-page .hero-banner {
+    padding-top: 82px;
+    padding-bottom: 170px;
+  }
+  .landing-page .container {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .landing-page .hero-banner .banner-text h1 {
+    margin-left: 0;
+  }
+  .landing-page .hero-banner .banner-text h3 {
+    padding-bottom: 110px;
+    font-size: 36px;
+  }
+  .landing-page .hero-banner .banner-text a, .landing-page .find-rescue-sec a {
+    padding: 10px 55px;
+    font-size: 34px;
+  }
+  .landing-page .the-mines-sec > .container:before {
+    bottom: -140px;
+  }
+  .landing-page .factory-img {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1299px) {
+  .landing-page .Footer {
+    padding: 40px 0px;
+  }
+  .landing-page .sub-heading {
+    font-size: 60px;
+  }
+  .landing-page .inner-factory-sec {
+    padding: 180px 0px;
+  }
+  .landing-page .introducing-sciety-sec h2 span {
+    font-size: 90px;
+  }
+  .landing-page .left-the-mines img {
+    max-width: 703px;
+  }
+  .landing-page .welcome-top-sec > .container:before, .landing-page .introducing-sciety-sec > .container:before {
+    left: 58%;
+  }
+  .landing-page .hero-banner:before, .landing-page #about-main:before {
+    height: 841px;
+  }
+  .landing-page .hero-banner {
+    padding-top: 140px;
+    padding-bottom: 190px;
+  }
+  .landing-page .container {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .landing-page .hero-banner .banner-text h1 {
+    margin-left: 0;
+  }
+  .landing-page .hero-banner .banner-text h3 {
+    padding-bottom: 110px;
+  }
+  .landing-page .hero-banner .banner-text a, .landing-page .find-rescue-sec a {
+    padding: 10px 50px;
+    font-size: 36px;
+  }
+}
+
+@media screen and (min-width: 1300px) and (max-width: 1599px) {
+  .landing-page .inner-factory-sec {
+    padding: 170px 0px;
+  }
+  .landing-page .inner-section:before {
+    top: -12%;
+    right: -20%;
+  }
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1599px) {
+  .landing-page .inner-section:before {
+    top: -11%;
+    right: -16%;
+  }
+}
+/*# sourceMappingURL=Landing.css.map */
